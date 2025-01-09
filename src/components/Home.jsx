@@ -14,7 +14,7 @@ const Home = () => {
   // Sorting courses by difficulty
   const handleSortByDifficulty = () => {
     const sortedCourses = [...courses].sort(
-      (a, b) => a.difficulty - b.difficulty
+      (a, b) => b.difficulty - a.difficulty
     );
     setCourses(sortedCourses);
   };

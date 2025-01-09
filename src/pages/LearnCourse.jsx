@@ -132,7 +132,7 @@ const LearnCourse = () => {
       Swal.fire("Review Submitted!", "", "success");
     });
     setReview({ rating: 0, comment: "" });
-    navigate("/reviews");
+    // navigate("/reviews");
     // console.log(review);
   };
 
@@ -172,7 +172,7 @@ const LearnCourse = () => {
       Swal.fire("Note Submitted!", "", "success");
     });
     setNotes("");
-    navigate("/myNotes");
+    // navigate("/myNotes");
   };
 
   return (
